@@ -1,5 +1,4 @@
-"""
-#### README.md ####
+#### README
 Any questions pertaining to the scripts and/or study can be directed to the following:
 Author: Justin G. Coughlin, M.S.
 Email: justin.coughlin828@gmail.com
