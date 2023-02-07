@@ -7,7 +7,8 @@ Email: justin.coughlin828@gmail.com
 Purpose of scripts: These scripts are intended to be used for the analysis of the effects of air 
 pollution (nitrogen and sulfur deposition) on 94 different prevalent tree species found across the 
 contiguous United States using continuous tree species basal area and range rasters (Wilson et al., 2013). 
-The methods outlined within the scripts are described in an accompanying journal article.
+The methods outlined within the scripts are described in an accompanying journal article. Scripts 
+should be run in sequence from s1 through s8, depending on the intended use.
 
 Python version: 2.7
 Required packages: os, timeit, arcpy (Spatial Analyst), numpy
