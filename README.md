@@ -1,5 +1,8 @@
 """
 #### README.md ####
+Any questions pertaining to the scripts and/or study can be directed to the following:
+Author: Justin G. Coughlin, M.S.
+Email: justin.coughlin828@gmail.com
 
 Purpose of scripts: These scripts are intended to be used for the analysis of the effects of air 
 pollution (nitrogen and sulfur deposition) on 94 different prevalent tree species found across the 
@@ -23,12 +26,8 @@ Total Deposition Science Committee. This study utilized the 2018.2 grids (NADP, 
 README file here:
 https://nadp.slh.wisc.edu/committees/tdep/
 
-Notes: These data were collected using funding from the U.S. 
+Note: These data were collected using funding from the U.S. 
 Government and can be shared without additional permissions or fees.
-
-Author: Justin G. Coughlin, M.S.
-Email: justin.coughlin828@gmail.com
-
 
 References:
 Wilson, Barry Tyler; Lister, Andrew J.; Riemann, Rachel I. 201205. A nearest-neighbor imputation approach to mapping tree species over large areas using forest inventory plots and moderate resolution raster data. Forest Ecology and Management. 271:182-198. 16 p.
