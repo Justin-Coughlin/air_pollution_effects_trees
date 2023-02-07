@@ -27,8 +27,10 @@ Total Deposition Science Committee. This study utilized the 2018.2 grids (NADP, 
 README file here:
 https://nadp.slh.wisc.edu/committees/tdep/
 
+
 Note: These data were collected using funding from the U.S. 
 Government and can be shared without additional permissions or fees.
+
 
 References:
 Wilson, Barry Tyler; Lister, Andrew J.; Riemann, Rachel I. 201205. A nearest-neighbor imputation approach to mapping tree species over large areas using forest inventory plots and moderate resolution raster data. Forest Ecology and Management. 271:182-198. 16 p.
