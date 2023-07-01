@@ -1,7 +1,7 @@
 #### README
 Any questions pertaining to the scripts and/or study can be directed to the following:
 Author: Justin G. Coughlin, M.S.
-Email: justin.coughlin828@gmail.com
+Email: justin.coughlin@outlook.com
 
 Purpose of scripts: These scripts are intended to be used for the analysis of the effects of air 
 pollution (nitrogen and sulfur deposition) on 94 different prevalent tree species found across the 
