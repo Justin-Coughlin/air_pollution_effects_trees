@@ -1,7 +1,12 @@
-## Author
+## Authors
+
 Justin G. Coughlin
 
 Email: justin.coughlin@outlook.com
+
+Christopher M. Clark
+
+clark.christopher@epa.gov
 
 ## Version History
 
@@ -24,24 +29,28 @@ The basal area rasters that were used here are available from the USFS at the fo
 
 The directory includes:
 
-* **aggregate.gdb**: *Aggregated rasters for interspecific evaluations. 
+* **aggregate.gdb**: *Aggregated rasters for interspecific evaluations.* 
 * **ba_null.gdb**: *Basal area rasters that have been nulled. These rasters are directly from the USFS database with NA placeholder values nulled.*
-* **N_basal_area_prop_growth_reduction.gdb**: *Species-specific proportional basal area reduction for growth based on 2017-2019 average N deposition.*
-* **N_basal_area_prop_survival_reduction.gdb**: *Species-specific proportional basal area reduction for survival based on 2017-2019 average N deposition.*
-* **N_growth_deposition_5_red.gdb**: *Total N deposition level needed to prevent a 5% reduction in growth for individual species.*
-* **N_growth_reduction.gdb**: *Species-specific growth effects due to N deposition owing to 2017-2019 total N deposition.*
-* **N_survival_deposition_1_red.gdb**: *Total N deposition level needed to prevent a 1% reduction in survival for individual species.*
-* **N_survival_reduction.gdb**: *Species-specific survival effects due to N deposition owing to 2017-2019 total N deposition.*
-* **S_basal_area_prop_growth_reduction.gdb**: *Species-specific proportional basal area reduction for growth based on 2017-2019 average S deposition.*
-* **S_basal_area_prop_survival_reduction.gdb**: *Species-specific proportional basal area reduction for survival based on 2017-2019 average S deposition.*
-* **S_growth_deposition_5_red.gdb**: *Total S deposition level needed to prevent a 5% reduction in growth for individual species.*
-* **S_growth_reduction.gdb**: *Species-specific growth effects due to S deposition owing to 2017-2019 total N deposition.*
-* **S_survival_deposition_1_red.gdb**: *Total S deposition level needed to prevent a 1% reduction in survival for individual species.*
-* **S_survival_reduction.gdb**: *Species-specific survival effects due to S deposition owing to 2017-2019 total N deposition.*
+* **N_basal_area_prop_growth_effect.gdb**: *Species-specific proportional basal area effect (m^2 ha^-1) for growth based on 2017-2019 average N deposition.*
+* **N_basal_area_prop_survival_effect.gdb**: *Species-specific proportional basal area effect (m^2 ha^-1) for survival based on 2017-2019 average N deposition.*
+* **N_growth_deposition_5_red.gdb**: *Total N deposition level (kg N ha^-1 yr^-1) needed to prevent a 5% reduction in growth for individual species.*
+* **N_growth_effect.gdb**: *Species-specific growth effects (proportion, e.g., +0.05 is a 5% increase in growth rate) due to N deposition owing to 2017-2019 total N deposition.*
+* **N_survival_deposition_1_red.gdb**: *Total N deposition level (kg N ha^-1 yr^-1) needed to prevent a 1% reduction in survival for individual species.*
+* **N_survival_effect.gdb**: *Species-specific survival effects (proportion, e.g.,- 0.01 is a -1% effect in survival rate) due to N deposition owing to 2017-2019 total N deposition.*
+* **S_basal_area_prop_growth_effect.gdb**: *Species-specific proportional basal area effect (m^2 ha^-1) for growth based on 2017-2019 average S deposition.*
+* **S_basal_area_prop_survival_effect.gdb**: *Species-specific proportional basal area effect (m^2 ha^-1) for survival based on 2017-2019 average S deposition.*
+* **S_growth_deposition_5_red.gdb**: *Total S deposition level (kg S ha^-1 yr^-1) needed to prevent a 5% reduction in growth for individual species.*
+* **S_growth_effect.gdb**: *Species-specific growth effects (proportion, e.g.,- 0.05 is a -5% effect in growth rate) due to S deposition owing to 2017-2019 total N deposition.*
+* **S_survival_deposition_1_red.gdb**: *Total S deposition level (kg S ha^-1 yr^-1) needed to prevent a 1% reduction in survival for individual species.*
+* **S_survival_effect.gdb**: *Species-specific survival effects (proportion, e.g.,- 0.01 is a -1% effect in survival rate) due to S deposition owing to 2017-2019 total N deposition.*
 * **spp_proportion_ba.gdb**: *Species-specific proportion to total basal area using all 323 species from the USFS database.*
 
 All geodatabases are species-specific (i.e., spp code) except for aggregate.gdb. The species contained accompanying scripts and README documentation can be found at the following code repository:
 * [Processing Scripts](https://github.com/Justin-Coughlin/air_pollution_effects_trees)
+
+In effects rasters, the effect is the proportional effect. For example, a value of -0.5 is a 50% decrease (i.e., reduction) in the growth or survival rate. Conversely, 1.0 would be a 100% increase. Typical values 
+will vary widely between -1.0 to 2.0+. In deposition rasters, the deposition level for individual species is the deposition level (kg N or S ha^-1 yr^-1) that is needed to prevent a 5% (growth) or
+1% (survival) rate reduction. In the basal area rasters, the proportional effect to the basal area (m^2 ha^-1) for an invididual species is presented. Aggregate rasters will have the same units, respectively, depending on the raster (e.g., effects).
 
 The species contained within the directories use species-specific information that was derived from findings in [Horn et al. (2018)](https://doi.org/10.1371/journal.pone.0205296) about tree species' responses to N and S deposition. The equations used in the processing scripts on the [Github repository](https://github.com/Justin-Coughlin/air_pollution_effects_trees/tree/main/python) were modified and are described in Coughlin et al. (2023).
 
@@ -60,7 +69,7 @@ The species contained within the directories use species-specific information th
 
     * Packages: 
         * Python: os, timeit, arcpy, arcpy.SpatialAnalyst, numpy
-        * R: "openair", "RColorBrewer", "ggplot2", "dplyr", "magrittr", "data.table", "tidyr", "purrr", "reshape2", "dplyr", "openxlsx", "zoo", "tictoc", "tidyverse", "lubridate", "stringr"
+        * R: "RColorBrewer", "ggplot2", "dplyr", "magrittr", "data.table", "tidyr", "purrr", "reshape2", "dplyr", "openxlsx", "zoo", "tictoc", "tidyverse", "lubridate", "stringr"
 
 ### Installing
 You can download the data from the geodatabases directly on this [figshare+ repository](https://github.com/Justin-Coughlin/air_pollution_effects_trees).
