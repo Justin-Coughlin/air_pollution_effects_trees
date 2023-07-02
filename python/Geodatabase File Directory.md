@@ -3,7 +3,8 @@
 Contributors names and contact info:
 
 Justin G. Coughlin
-justin.coughlin@outlook.com
+
+Email: justin.coughlin@outlook.com
 
 ## Version History
 
@@ -42,7 +43,7 @@ The directory includes:
 * **S_survival_reduction.gdb**: *Species-specific survival effects due to S deposition owing to 2017-2019 total N deposition.*
 * **spp_proportion_ba.gdb**: *Species-specific proportion to total basal area using all 323 species from the USFS database.*
 
-All geodatabases are species-specific (i.e., spp code) except for aggregate.gdb. The species contained Accompanying scripts and README documentation can be found at the following code repository:
+All geodatabases are species-specific (i.e., spp code) except for aggregate.gdb. The species contained accompanying scripts and README documentation can be found at the following code repository:
 * [Processing Scripts](https://github.com/Justin-Coughlin/air_pollution_effects_trees)
 
 The species contained within the directories use species-specific information that was derived from findings in [Horn et al. (2018)](https://doi.org/10.1371/journal.pone.0205296) about tree species' responses to N and S deposition. The equations used in the processing scripts on the [Github repository](https://github.com/Justin-Coughlin/air_pollution_effects_trees/tree/main/python) were modified and are described in Coughlin et al. (2023).
@@ -78,7 +79,7 @@ Additional instructions on the process for downloading, see below:
 ```
 ## Help
 
-Common Issues to be aware of:
+Common issues to be aware of:
 ```
 - Ensure the proper projection is being used (Albers projection, GRS1980 datum) 
 - Ensure the entire folder directory is downloaded to use the geodatabase in your preferred GIS software
