@@ -1,7 +1,4 @@
-## Authors
-
-Contributors names and contact info:
-
+## Author
 Justin G. Coughlin
 
 Email: justin.coughlin@outlook.com
