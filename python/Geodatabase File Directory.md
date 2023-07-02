@@ -4,10 +4,6 @@ Justin G. Coughlin
 
 Email: justin.coughlin@outlook.com
 
-Christopher M. Clark
-
-clark.christopher@epa.gov
-
 ## Version History
 
 * 0.1
