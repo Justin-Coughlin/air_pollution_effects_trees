@@ -1,3 +1,19 @@
+## Authors
+
+Contributors names and contact info:
+
+Justin G. Coughlin
+justin.coughlin@outlook.com
+
+## Version History
+
+* 0.1
+    * Initial Release
+
+## License
+
+These data were collected using funding from the U.S. Government and can be used without additional permissions or fees. 
+
 # File Directory for Rasters
 This file directory is intended to serve as a README file for the continuous surfaces of N and S deposition effects to 94 tree species in the contiguous United States.
 There is accompanying material on a [Github repository](https://github.com/Justin-Coughlin/air_pollution_effects_trees) if the user intends to process data themselves.
@@ -52,9 +68,11 @@ The species contained within the directories use species-specific information th
 You can download the data from the geodatabases directly on this [figshare+ repository](https://github.com/Justin-Coughlin/air_pollution_effects_trees).
 Additional instructions on the process for downloading, see below: 
 ```
-1. Download the entire folder directory of interest. Raster files will contain multiple files (3-8), so it is crucial to download the entire geodatabase folder.
+1. Download the entire folder directory of interest. Raster files will 
+contain multiple files (3-8), so it is crucial to download the entire geodatabase folder.
 2. Once downloaded, access the geodatabase using your preferred GIS software.
-3. Please use the metadata_gdb.csv file as the point of reference for selecting the species of interest or the aggregate raster of interest.
+3. Please use the metadata_gdb.csv file as the point of reference for 
+selecting the species of interest or the aggregate raster of interest.
 ```
 ## Help
 
@@ -64,22 +82,7 @@ Common Issues to be aware of:
 - Ensure the entire folder directory is downloaded to use the geodatabase in your preferred GIS software
 - Ensure you have enough RAM to use the processing scripts.
 ```
-
-## Authors
-
-Contributors names and contact info:
-
-Justin G. Coughlin
-justin.coughlin@outlook.com
-
-## Version History
-
-* 0.1
-    * Initial Release
-
-## License
-
-These data were collected using funding from the U.S. Government and can be used without additional permissions or fees. 
+Please contact me via email if you have any issues or questions.
 
 ## References:
 
