@@ -29,21 +29,36 @@ The basal area rasters that were used here are available from the USFS at the fo
 
 The directory includes:
 
-* **aggregate.gdb**: *Aggregated rasters for interspecific evaluations.* 
-* **ba_null.gdb**: *Basal area rasters that have been nulled. These rasters are directly from the USFS database with NA placeholder values nulled.*
-* **N_basal_area_prop_growth_effect.gdb**: *Species-specific proportional basal area effect (m<sup>2</sup> ha<sup>-1</sup>) for growth based on 2017-2019 average N deposition.*
-* **N_basal_area_prop_survival_effect.gdb**: *Species-specific proportional basal area effect (m<sup>2</sup> ha<sup>-1</sup>) for survival based on 2017-2019 average N deposition.*
-* **N_growth_deposition_5_red.gdb**: *Total N deposition level (kg N ha<sup>-1</sup> yr<sup>-1</sup>) needed to prevent a 5% reduction in growth for individual species.*
-* **N_growth_effect.gdb**: *Species-specific growth effects (proportion, e.g., +0.05 is a 5% increase in growth rate) due to N deposition owing to 2017-2019 total N deposition.*
-* **N_survival_deposition_1_red.gdb**: *Total N deposition level (kg N ha<sup>-1</sup> yr<sup>-1</sup>) needed to prevent a 1% reduction in survival for individual species.*
-* **N_survival_effect.gdb**: *Species-specific survival effects (proportion, e.g.,- 0.01 is a -1% effect in survival rate) due to N deposition owing to 2017-2019 total N deposition.*
-* **S_basal_area_prop_growth_effect.gdb**: *Species-specific proportional basal area effect (m<sup>2</sup> ha<sup>-1</sup>) for growth based on 2017-2019 average S deposition.*
-* **S_basal_area_prop_survival_effect.gdb**: *Species-specific proportional basal area effect (m<sup>2</sup> ha<sup>-1</sup>) for survival based on 2017-2019 average S deposition.*
-* **S_growth_deposition_5_red.gdb**: *Total S deposition level (kg S ha<sup>-1</sup> yr<sup>-1</sup>) needed to prevent a 5% reduction in growth for individual species.*
-* **S_growth_effect.gdb**: *Species-specific growth effects (proportion, e.g.,- 0.05 is a -5% effect in growth rate) due to S deposition owing to 2017-2019 total N deposition.*
-* **S_survival_deposition_1_red.gdb**: *Total S deposition level (kg S ha<sup>-1</sup> yr<sup>-1</sup>) needed to prevent a 1% reduction in survival for individual species.*
-* **S_survival_effect.gdb**: *Species-specific survival effects (proportion, e.g.,- 0.01 is a -1% effect in survival rate) due to S deposition owing to 2017-2019 total N deposition.*
-* **spp_proportion_ba.gdb**: *Species-specific proportion to total basal area using all 323 species from the USFS database.*
+* **aggregate.gdb**: 
+    * *Aggregated rasters for interspecific evaluations.* 
+* **ba_null.gdb**: 
+    * *Basal area rasters that have been nulled. These rasters are directly from the USFS database with NA placeholder values nulled.*
+* **N_basal_area_prop_growth_effect.gdb**: 
+    * *Species-specific proportional basal area effect (m<sup>2</sup> ha<sup>-1</sup>) for growth based on 2017-2019 average N deposition.*
+* **N_basal_area_prop_survival_effect.gdb**: 
+    * *Species-specific proportional basal area effect (m<sup>2</sup> ha<sup>-1</sup>) for survival based on 2017-2019 average N deposition.*
+* **N_growth_deposition_5_red.gdb**: 
+    * *Total N deposition level (kg N ha<sup>-1</sup> yr<sup>-1</sup>) needed to prevent a 5% reduction in growth for individual species.*
+* **N_growth_effect.gdb**: 
+    * *Species-specific growth effects (proportion, e.g., +0.05 is a 5% increase in growth rate) due to N deposition owing to 2017-2019 total N deposition.*
+* **N_survival_deposition_1_red.gdb**: 
+    * *Total N deposition level (kg N ha<sup>-1</sup> yr<sup>-1</sup>) needed to prevent a 1% reduction in survival for individual species.*
+* **N_survival_effect.gdb**: 
+    * *Species-specific survival effects (proportion, e.g.,- 0.01 is a -1% effect in survival rate) due to N deposition owing to 2017-2019 total N deposition.*
+* **S_basal_area_prop_growth_effect.gdb**: 
+    * *Species-specific proportional basal area effect (m<sup>2</sup> ha<sup>-1</sup>) for growth based on 2017-2019 average S deposition.*
+* **S_basal_area_prop_survival_effect.gdb**: 
+    * *Species-specific proportional basal area effect (m<sup>2</sup> ha<sup>-1</sup>) for survival based on 2017-2019 average S deposition.*
+* **S_growth_deposition_5_red.gdb**: 
+    * *Total S deposition level (kg S ha<sup>-1</sup> yr<sup>-1</sup>) needed to prevent a 5% reduction in growth for individual species.*
+* **S_growth_effect.gdb**: 
+    * *Species-specific growth effects (proportion, e.g.,- 0.05 is a -5% effect in growth rate) due to S deposition owing to 2017-2019 total N deposition.*
+* **S_survival_deposition_1_red.gdb**: 
+    * *Total S deposition level (kg S ha<sup>-1</sup> yr<sup>-1</sup>) needed to prevent a 1% reduction in survival for individual species.*
+* **S_survival_effect.gdb**: 
+    * *Species-specific survival effects (proportion, e.g.,- 0.01 is a -1% effect in survival rate) due to S deposition owing to 2017-2019 total N deposition.*
+* **spp_proportion_ba.gdb**: 
+    * *Species-specific proportion to total basal area using all 323 species from the USFS database.*
 
 All geodatabases are species-specific (i.e., spp code) except for aggregate.gdb. The species contained accompanying scripts and README documentation can be found at the following code repository:
 * [Processing Scripts](https://github.com/Justin-Coughlin/air_pollution_effects_trees)
