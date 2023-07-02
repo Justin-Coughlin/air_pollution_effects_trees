@@ -45,7 +45,7 @@ The directory includes:
 All geodatabases are species-specific (i.e., spp code) except for aggregate.gdb. The species contained Accompanying scripts and README documentation can be found at the following code repository:
 * [Processing Scripts](https://github.com/Justin-Coughlin/air_pollution_effects_trees)
 
-The species contained within the directories use species-specific information that was derived from findings in [Horn et al. (2018)](https://doi.org/10.1371/journal.pone.0205296) about tree species' responses to N and S deposition. The equations used in the processing scripts on the [Github repository](https://github.com/Justin-Coughlin/air_pollution_effects_trees) were modified and are described in Coughlin et al. (2023).
+The species contained within the directories use species-specific information that was derived from findings in [Horn et al. (2018)](https://doi.org/10.1371/journal.pone.0205296) about tree species' responses to N and S deposition. The equations used in the processing scripts on the [Github repository](https://github.com/Justin-Coughlin/air_pollution_effects_trees/tree/main/python) were modified and are described in Coughlin et al. (2023).
 
 ## Getting Started
 
@@ -68,9 +68,11 @@ The species contained within the directories use species-specific information th
 You can download the data from the geodatabases directly on this [figshare+ repository](https://github.com/Justin-Coughlin/air_pollution_effects_trees).
 Additional instructions on the process for downloading, see below: 
 ```
-1. Download the entire folder directory of interest. Raster files will 
-    contain multiple files (3-8), so it is crucial to download the entire geodatabase folder.
+1. Download the entire folder directory of interest. 
+    - Raster files will contain multiple files (3-8), so it is crucial to download the entire geodatabase folder.
+
 2. Once downloaded, access the geodatabase using your preferred GIS software.
+
 3. Please use the metadata_gdb.csv file as the point of reference for 
 selecting the species of interest or the aggregate raster of interest.
 ```
