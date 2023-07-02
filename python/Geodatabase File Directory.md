@@ -69,7 +69,7 @@ You can download the data from the geodatabases directly on this [figshare+ repo
 Additional instructions on the process for downloading, see below: 
 ```
 1. Download the entire folder directory of interest. Raster files will 
-contain multiple files (3-8), so it is crucial to download the entire geodatabase folder.
+    contain multiple files (3-8), so it is crucial to download the entire geodatabase folder.
 2. Once downloaded, access the geodatabase using your preferred GIS software.
 3. Please use the metadata_gdb.csv file as the point of reference for 
 selecting the species of interest or the aggregate raster of interest.
