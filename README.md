@@ -41,7 +41,7 @@ The R scripts can be run on a personal machine (16 GB RAM) while the Python scri
         * Python: os, timeit, arcpy, arcpy.SpatialAnalyst, numpy
         * R: "RColorBrewer", "ggplot2", "dplyr", "magrittr", "data.table", "tidyr", "purrr", "reshape2", "dplyr", "openxlsx", "zoo", "tictoc", "tidyverse", "lubridate", "stringr"
 
-## Raw Data epositories:
+## Raw Data Repositories:
 
 Continuous raster surfaces of tree basal area and range can be found on this [USFS Website](https://www.fs.usda.gov/rds/archive/catalog/RDS-2013-0013)
 
