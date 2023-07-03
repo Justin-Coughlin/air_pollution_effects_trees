@@ -54,6 +54,7 @@ Supplementary Information [Table S4](https://journals.plos.org/plosone/article?i
 Nitrogen and sulfur deposition raster surfaces are developed by the National Atmospheric Deposition Program's
 Total Deposition Science Committee. This study utilized the [2018.2 grids](https://nadp.slh.wisc.edu/committees/tdep/) (NADP, 2022)
 
+# Other
 ## Help
 
 Please contact me via email if you have any issues or questions.
