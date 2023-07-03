@@ -13,10 +13,7 @@ Email: justin.coughlin@outlook.com
 
 These data were collected using funding from the U.S. Government and can be used without additional permissions or fees. 
 
-# File Repository
-This associated file directory that accompany these scripts can be found on a [figshare+ repository](https://github.com/Justin-Coughlin/air_pollution_effects_trees).
-
-## Description
+# Description
 This README describes the overarching concepts and details of the Github repository that accompanies the following journal article, [Coughlin et al. (2023)](https://doi.org/10.1371/journal.pone.0205296). 
 Individual README files for the [R scripts](https://github.com/Justin-Coughlin/air_pollution_effects_trees/blob/main/r/README_R.md) and the [Python scripts](https://github.com/Justin-Coughlin/air_pollution_effects_trees/blob/main/python/README_geodatabase_file_directory.md) can be found on those links.
 
@@ -24,7 +21,7 @@ The two different methods take different approaches of evaluating the 2000-2019 
 
 The R scripts can be run on a personal machine (16 GB RAM) while the Python scripts will need to be run on a physical or cloud server due to the memory needs (64+ GB RAM). These scripts can be modified to evaluate new TDep surfaces (e.g., 2018.2+) or new years (2019+). Data will need to be processed beforehand if that is the intent. For example, the tree_characteristic_deposition.csv on the [figshare+ repository](https://github.com/Justin-Coughlin/air_pollution_effects_trees) could be converted into a shapefile and new deposition values could be extracted and evaluated using the scripts contained here.
 
-## Getting Started
+# Getting Started
 
 ### Dependencies
 
@@ -40,6 +37,11 @@ The R scripts can be run on a personal machine (16 GB RAM) while the Python scri
     * Packages: 
         * Python: os, timeit, arcpy, arcpy.SpatialAnalyst, numpy
         * R: "RColorBrewer", "ggplot2", "dplyr", "magrittr", "data.table", "tidyr", "purrr", "reshape2", "dplyr", "openxlsx", "zoo", "tictoc", "tidyverse", "lubridate", "stringr"
+
+
+# File Repository
+## Figshare+
+This associated file directory that accompany these scripts can be found on a [figshare+ repository](https://github.com/Justin-Coughlin/air_pollution_effects_trees).
 
 ## Raw Data Repositories:
 
