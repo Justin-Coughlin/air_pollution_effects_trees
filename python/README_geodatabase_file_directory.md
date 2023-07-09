@@ -21,7 +21,7 @@ There is accompanying material on a [Github repository](https://github.com/Justi
 This file directory describes various raster geodatabase files generated as a research product from Coughlin et al. (2023).
 Rasters include the spp code that is used by the United States Forest Service (USFS) as unique identifiers for tree species. 
 The basal area rasters that were used here are available from the USFS at the following site:
-* [Basal area rasters](https://www.fs.usda.gov/rds/archive/catalog/RDS-2013-0013)
+* [Basal area rasters; Wilson et al. (2013)](https://www.fs.usda.gov/rds/archive/catalog/RDS-2013-0013)
 
 The directory includes:
 
@@ -70,7 +70,7 @@ The species contained within the directories use species-specific information th
 ### Dependencies
 
 * Prequisites:
-    * OS: Python 3.x+, ArcGIS License for Spatial Analyst, Arcpy access, R
+    * Program: Python 3.x+, ArcGIS License for Spatial Analyst, Arcpy access, R
 
     * Storage: 200 GB
 
@@ -107,4 +107,4 @@ Please contact me via email if you have any issues or questions.
 ## References:
 
 * Horn, K. J. et al. Growth and survival relationships of 71 tree species with nitrogen and sulfur deposition across the conterminous U.S. PLoS One (2018) doi: (10.1371/journal.pone.0205296).
-* Thomas, R. Q., Canham, C. D., Weathers, K. C. & Goodale, C. L. Increased tree carbon storage in response to nitrogen deposition in the US. Nat Geosci (2010) doi:10.1038/ngeo721.
+* Wilson, B. T., Lister, A. J., Riemann, R. I. & Griffith, D. M. Live tree species basal area of the contiguous United States (2000-2009) Data. in USDA Research Data Archive (2013).
