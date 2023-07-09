@@ -34,9 +34,8 @@ tic("Environment setting")
 
 ## ------------------- Load libraries and create lists -------------------------
 library(easypackages)
-libraries("openair", "RColorBrewer", "ggplot2", "dplyr", "magrittr",
-          "data.table", "tidyr", "purrr", "reshape2", "dplyr",
-          "openxlsx", "tictoc", "tidyverse", "lubridate", "stringr")
+libraries("ggplot2", "dplyr", "tidyr", "dplyr", "openxlsx", "tictoc", 
+          "tidyverse")
 
 # Percentile function
 p <- 0.05 # Set percentile here, 5th percentile
@@ -150,6 +149,7 @@ Tree_Dep <- Tree_Dep %>%
 Tree_Dep <- Tree_Dep %>%
   select(Gen_Spp, Genus, Species, Common.Name, SPCD, TRE_CN, PLT_CN, LAT, LON, 
          STUSPS, NAME, pheno.type, Wood.Products,
+         starts_with("n_tw"), starts_with("s_tw"),
          starts_with("G_N_"), starts_with("G_S_"),
          starts_with("S_N_"), starts_with("S_S_"),
          ends_with("_Domain"))
