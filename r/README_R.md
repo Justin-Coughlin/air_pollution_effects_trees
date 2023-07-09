@@ -19,7 +19,7 @@ at Forest Inventory and Analysis (FIA) plots, across the contiguous United State
 
 The accompanying data is available on a [figshare+ repository](https://github.com/Justin-Coughlin/air_pollution_effects_trees). 
 Data within the repository is necessary to run the R scripts. Additionally, data outputs from the R scripts are described on the figshare+ repository in the csv_metadata.xlsx file.
-A description of each csv file is  
+A description of each csv file is contained within that metadata file.
 
 The R scripts include:
 
